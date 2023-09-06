@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Hugo Academic Theme
+      title: Felipe Juan
       image:
         filename: hero-academic.png
       cta:
@@ -59,7 +59,7 @@ sections:
           icon_pack: fas
   - block: experience
     content:
-      title: Experience
+      title: Teaching Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -69,19 +69,15 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Graduate Student Instructor
+          company: Howard University
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Washington, DC
+          date_start: '2020-08-09'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
+              * Tracing trends of Black workers in the IT sector throughout the United States and finding ways of making the Metaverse more economically equitable, funded by Meta
         - title: Professor of Semiconductor Physics
           company: University X
           company_url: ''
