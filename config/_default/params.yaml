@@ -18,14 +18,12 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Fifth year PhD candidate in economics at Howard University'
+    twitter: 'soyfelipejuan'
   analytics:
     google_analytics: ''
-    baidu_tongji: ''
   verification:
     google: ''
-    baidu: ''
 
 # Site header
 
@@ -63,7 +61,7 @@ features:
   syntax_highlighter:
     theme_light: github-light
     theme_dark: dracula
-  math:
+  math: TRUE
     enable: false
   privacy_pack:
     enable: false
