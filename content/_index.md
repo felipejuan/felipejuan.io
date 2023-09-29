@@ -39,6 +39,15 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+      - title: AEA Summer Fellow
+          company: Howard University
+          company_url: ''
+          company_logo: org-x
+          location: California
+          date_start: '2019-08-25'
+          date_end: '2020-05-10'
+          description: |2-
+              * Intermediate Microeconomics
         - title: Graduate Student Instructor
           company: Howard University
           company_url: 'https://howard.edu/'
@@ -53,9 +62,10 @@ sections:
           company_url: ''
           company_logo: org-x
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_start: '2019-08-25'
+          date_end: '2020-05-10'
+          description: |2-
+              * Intermediate Microeconomics
     design:
       columns: '2'
   - block: accomplishments
