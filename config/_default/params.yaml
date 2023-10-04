@@ -61,7 +61,7 @@ features:
   syntax_highlighter:
     theme_light: github-light
     theme_dark: dracula
-  math: TRUE
+  math: true
     enable: false
   privacy_pack:
     enable: false
@@ -90,7 +90,7 @@ features:
       app_id: ''
       api_key: ''
       index_name: ''
-      show_logo: false
+      show_logo: true
   map:
     provider: ''
     api_key: ''
