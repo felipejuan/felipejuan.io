@@ -80,5 +80,5 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Felipe Juan is a PhD Candidate in economics at Howard University. His research interests include equitable access to social safety nets and economic equity in the metaverse. 
 {style="text-align: justify;"}
