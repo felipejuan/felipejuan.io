@@ -5,12 +5,16 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: about.biography
+  - block: hero
+    content:
+      title: Felipe Juan
+  - block: about.avatar
     id: about
     content:
-      title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+      # Override your bio text from `authors/admin/_index.md`?
+      text:
   - block: features
     content:
       title: Skills
@@ -19,13 +23,17 @@ sections:
           description: 90%
           icon: r-project
           icon_pack: fab
-        - name: Python
+        - name: Statistics
           description: 100%
-          icon: fa-python
-          icon_pack: fab
+          icon: chart-line
+          icon_pack: fas
+        - name: Photography
+          description: 10%
+          icon: camera-retro
+          icon_pack: fas
   - block: experience
     content:
-      title: Teaching Experience
+      title: Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -35,39 +43,33 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: AEA Summer Fellow
-          company: Howard University
+        - title: CEO
+          company: GenCoin
+          company_url: ''
+          company_logo: org-gc
+          location: California
+          date_start: '2021-01-01'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Professor of Semiconductor Physics
+          company: University X
           company_url: ''
           company_logo: org-x
           location: California
-          date_start: '2019-08-25'
-          date_end: '2020-05-10'
-      description: |2-
-        * Intermediate Microeconomics
-    - title: Graduate Student Instructor
-      company: Howard University
-      company_url: 'https://howard.edu/'
-      company_logo: org-gc
-      location: Washington, DC
-      date_start: '2020-08-09'
-      date_end: '2020-12-12'
-      description: |2-
-        * Taught Principles of Macroeconomics
-    - title: Teaching Assistant
-      company: Howard University
-      company_url: ''
-      company_logo: org-x
-      location: California
-      date_start: '2019-08-25'
-      date_end: '2020-05-10'
-      description: |2-
-        * Intermediate Microeconomics
+          date_start: '2016-01-01'
+          date_end: '2020-12-31'
+          description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Fellowships and Awards'
+      title: 'Accomplish&shy;ments'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -77,13 +79,13 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.russellsage.org/news/second-annual-dissertation-research-grants-awarded
+        - certificate_url: https://www.coursera.org
           date_end: ''
-          date_start: '2023'
+          date_start: '2021-01-25'
           description: ''
-          organization: Russell Sage Foundation
-          organization_url: https://www.russellsage.org/
-          title: Dissertation Research Grant
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Neural Networks and Deep Learning
           url: ''
         - certificate_url: https://www.edx.org
           date_end: ''
@@ -147,10 +149,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Unemployment Insurance
-          tag: Unemployment Insurance
-        - name: Metaverse
-          tag: Metaverse
+        - name: Deep Learning
+          tag: Deep Learning
+        - name: Other
+          tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
