@@ -35,7 +35,7 @@ education:
   courses:
     - course: PhD in Economics
       institution: Stanford University
-      year: 2024 (expected)
+      year: 2024
     - course: MS in International Political Economy
       institution: The University of Texas at Dallas
       year: 2017
@@ -65,7 +65,7 @@ social:
     link: https://github.com/felipejuan
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/felipejuan
+    link: https://www.linkedin.com/in/felipejuan/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
