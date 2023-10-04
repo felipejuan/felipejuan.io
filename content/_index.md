@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: Felipe Juan
-  - block: about.avatar
+  - block: about
     id: about
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
