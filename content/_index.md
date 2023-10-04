@@ -15,14 +15,14 @@ sections:
     content:
       title: Skills
       items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Python
-          description: 100%
-          icon: python
-          icon_pack: fab
+    - name: R
+      description: 90%
+      icon: r-project
+      icon_pack: fab
+    - name: Python
+      description: 100%
+      icon: python
+      icon_pack: fab
   - block: experience
     content:
       title: Teaching Experience
