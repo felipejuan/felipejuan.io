@@ -15,14 +15,14 @@ sections:
     content:
       title: Skills
       items:
-    - name: R
-      description: 90%
-      icon: r-project
-      icon_pack: fab
-    - name: Python
-      description: 100%
-      icon: python
-      icon_pack: fab
+        - name: R
+          description: 90%
+          icon: r-project
+          icon_pack: fab
+        - name: Python
+          description: 100%
+          icon: python
+          icon_pack: fab
   - block: experience
     content:
       title: Teaching Experience
@@ -35,13 +35,13 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-    - title: AEA Summer Fellow
-      company: Howard University
-      company_url: ''
-      company_logo: org-x
-      location: California
-      date_start: '2019-08-25'
-      date_end: '2020-05-10'
+        - title: AEA Summer Fellow
+          company: Howard University
+          company_url: ''
+          company_logo: org-x
+          location: California
+          date_start: '2019-08-25'
+          date_end: '2020-05-10'
       description: |2-
         * Intermediate Microeconomics
     - title: Graduate Student Instructor
