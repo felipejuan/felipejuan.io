@@ -5,9 +5,6 @@ date: 2022-10-24
 type: landing
 
 sections:
-# - block: hero
-#    content:
-#      title: Felipe Juan
   - block: about.avatar
     id: about
     content:
