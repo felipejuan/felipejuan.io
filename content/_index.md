@@ -21,7 +21,7 @@ sections:
           icon_pack: fab
         - name: Python
           description: 100%
-          icon: python
+          icon: fa-python
           icon_pack: fab
   - block: experience
     content:
