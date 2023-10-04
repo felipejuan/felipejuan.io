@@ -6,10 +6,6 @@ title: Felipe Juan
 first_name: Felipe
 last_name: Juan
 
-# Status emoji
-status:
-  icon: 
-
 # Is this the primary user of the site?
 superuser: true
 
@@ -34,7 +30,7 @@ interests:
 education:
   courses:
     - course: PhD in Economics
-      institution: Stanford University
+      institution: Howard University
       year: 2024
     - course: MS in International Political Economy
       institution: The University of Texas at Dallas
