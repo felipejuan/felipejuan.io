@@ -23,10 +23,10 @@ sections:
           description: 100%
           icon: python
           icon_pack: fab
-        - name: Stata
-          description: 
-          icon: stata
-          icon_pack: svg
+    # name: Stata
+    # description: 
+    # icon: stata
+    # icon_pack: svg
   - block: experience
     content:
       title: Teaching Experience
