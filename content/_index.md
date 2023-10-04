@@ -23,7 +23,7 @@ sections:
           description: 100%
           icon: python
           icon_pack: fab
-        - name: "Stata"
+        - name: Stata
           description: 
           icon: stata
           icon_pack: "custom"
