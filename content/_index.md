@@ -52,20 +52,20 @@ sections:
       company: Howard University
       company_url: 'https://howard.edu/'
       company_logo: org-gc
-          location: Washington, DC
-          date_start: '2020-08-09'
-          date_end: '2020-12-12'
-          description: |2-
-              * Taught Principles of Macroeconomics
-        - title: Teaching Assistant
-          company: Howard University
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2019-08-25'
-          date_end: '2020-05-10'
-          description: |2-
-              * Intermediate Microeconomics
+      location: Washington, DC
+      date_start: '2020-08-09'
+      date_end: '2020-12-12'
+      description: |2-
+        * Taught Principles of Macroeconomics
+    - title: Teaching Assistant
+      company: Howard University
+      company_url: ''
+      company_logo: org-x
+      location: California
+      date_start: '2019-08-25'
+      date_end: '2020-05-10'
+      description: |2-
+        * Intermediate Microeconomics
     design:
       columns: '2'
   - block: accomplishments
