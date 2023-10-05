@@ -24,7 +24,7 @@
 <p class="p1">{{ if .author }}</p>
 <p class="p1"><span class="Apple-converted-space">  </span>{{ $author = .author }}</p>
 <p class="p1">{{ else }}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{{ $author = $block.Params.author }}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>{{ $author = $block.content.username }}</p>
 <p class="p1">{{end}}</p>
 <p class="p2"><br></p>
 <p class="p1">{{ $person_page_path := (printf "/authors/%s" $author) }}</p>
