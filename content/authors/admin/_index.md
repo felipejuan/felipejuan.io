@@ -18,13 +18,13 @@ organizations:
     url: https://www.howard.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research investigates equitable access to unemployment benefits and to the Metaverse
+bio: My research investigates equitable access to unemployment benefits and equitable access to the Metaverse
 
 # Interests to show in About widget
 interests:
   - Unemployment Insurance 
+  - Labor 
   - Metaverse
-  - Labor
 
 # Education to show in About widget
 education:
@@ -76,5 +76,5 @@ email: ''
 highlight_name: true
 ---
 
-Felipe Juan is a PhD Candidate in economics at Howard University. His research interests include equitable access to social safety nets and economic equity in the metaverse. 
+Felipe Juan is a PhD Candidate in economics at Howard University. His research interests include equitable access to unemployment benefits and equitable economic equity in the metaverse. 
 {style="text-align: justify;"}
