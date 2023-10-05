@@ -24,13 +24,13 @@ sections:
           description: 
           icon: python
           icon_pack: fab
-        - name: Photography
+        - name: Stata
           description: 
-          icon: camera-retro
-          icon_pack: fas
+          icon: 'stata'
+          icon_pack: svg
   - block: experience
     content:
-      title: Experience
+      title: Teaching Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
