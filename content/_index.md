@@ -77,7 +77,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Fellowships & &shy; Grants'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -94,23 +94,23 @@ sections:
           organization: Russell Sage Foundation
           organization_url: https://www.russellsage.org/
           title: 'Dissertation Research Grant'
-          url: ''
-        - certificate_url:
+          url: 'https://www.russellsage.org/awarded-project/importance-considering-state-eligibility-requirements-equitable-unemployment'
+        - certificate_url: 
+          date_end: '2024-07-07'
+          date_start: '2023-08-07'
+          description: 
+          organization: Mercatus Center
+          organization_url: https://www.mercatus.org/
+          title: Adam Smith Fellow
+          url: https://www.mercatus.org/students/fellows/felipe-juan
+        - certificate_url: https://www.nasi.org/pressrelease/kilolo-kijakazi-fellowship-program-fellows/
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_start: '2022-06-01'
           description: ''
-          organization: DataCamp
+          organization: The Policy Academies and The National Academy of Social Insurance
           organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+          title: Kilolo Kijikazi Fellow
+          url: 'https://www.thepolicyacademies.org/'
     design:
       columns: '2'
   - block: collection
