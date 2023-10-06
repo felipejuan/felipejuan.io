@@ -74,7 +74,7 @@ sections:
           description: Taught introductory macroeconomics
     design:
       columns: '2'
-  - block: Fellowships & Grants
+  - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
