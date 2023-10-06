@@ -48,7 +48,6 @@ sections:
           date_start: '2023-06-01'
           date_end: '2023-08-01'
           description: Teaching Fellow for Advanced Econometrics
-
         - title: Instructor
           company: Howard University
           company_url: ''
