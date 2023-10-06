@@ -48,6 +48,22 @@ sections:
           date_start: '2023-06-01'
           date_end: '2023-08-01'
           description: Teaching Fellow for Advanced Econometrics
+        - title: Summer Fellow
+          company: American Economic Association Summer Program
+          company_url: 'https://www.aeaweb.org/about-aea/committees/AEASP'
+          company_logo: 
+          location: Washington
+          date_start: '2022-06-01'
+          date_end: '2022-08-01'
+          description: Teaching Fellow for Advanced Econometrics
+        - title: Summer Fellow
+          company: American Economic Association Summer Program
+          company_url: 'https://www.aeaweb.org/about-aea/committees/AEASP'
+          company_logo: 
+          location: Washington
+          date_start: '2021-06-01'
+          date_end: '2021-08-01'
+          description: Teaching Fellow for Advanced Econometrics
         - title: Instructor
           company: Howard University
           company_url: ''
@@ -55,7 +71,7 @@ sections:
           location: Washington
           date_start: '2020-08-20'
           date_end: '2020-12-15'
-          description: Taught electronic engineering and researched semiconductor physics.
+          description: Taught introductory macroeconomics. 
     design:
       columns: '2'
   - block: accomplishments
