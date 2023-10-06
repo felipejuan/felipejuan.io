@@ -93,9 +93,9 @@ sections:
           description: ''
           organization: Russell Sage Foundation
           organization_url: https://www.russellsage.org/
-          title: 
+          title: 'Dissertation Research Grant'
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url:
           date_end: ''
           date_start: '2021-01-01'
           description: Formulated informed blockchain models, hypotheses, and use cases.
