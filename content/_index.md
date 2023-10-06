@@ -71,10 +71,10 @@ sections:
           location: Washington
           date_start: '2020-08-20'
           date_end: '2020-12-15'
-          description: Taught introductory macroeconomics. 
+          description: Taught introductory macroeconomics
     design:
       columns: '2'
-  - block: accomplishments
+  - block: Fellowships & Grants
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
@@ -87,12 +87,12 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.russellsage.org/awarded-project/importance-considering-state-eligibility-requirements-equitable-unemployment
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-09-01'
           description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
+          organization: Russell Sage Foundation
+          organization_url: https://www.russellsage.org/
           title: Neural Networks and Deep Learning
           url: ''
         - certificate_url: https://www.edx.org
@@ -157,10 +157,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: Unemployment Insurance 
+          tag: Unemployment Insurance
+        - name: Metaverse
+          tag: Metaverse
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
