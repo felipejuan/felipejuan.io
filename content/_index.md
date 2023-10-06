@@ -87,13 +87,13 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.russellsage.org/awarded-project/importance-considering-state-eligibility-requirements-equitable-unemployment
-          date_end: ''
+        - certificate_url: 
+          date_end: '2024-08-31'
           date_start: '2023-09-01'
           description: ''
           organization: Russell Sage Foundation
           organization_url: https://www.russellsage.org/
-          title: Neural Networks and Deep Learning
+          title: 
           url: ''
         - certificate_url: https://www.edx.org
           date_end: ''
