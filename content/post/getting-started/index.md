@@ -47,7 +47,11 @@ print('This is going to be fun')
 
 ## Overview
 
-It's 3 am and I'm finishing up this site as a birthday present to myself, so I, at least, can sleep a little better later today. Eventually, I'll have more academic things to say but I'm tired and I finally got this somewhat done. Soft launch. 
+It's 3 am and I'm finishing up this site as a birthday present to myself, so I, at least, can sleep a little better later today. Eventually, I'll have more academic things to say but I'm tired, and I finally got this somewhat done. Soft launch. 
+
+## The actual post
+
+Thank you visiting my website. I will be adding more of my work on here (as I make more progress too). Please enjoy the photo of one of my dogs. 
 
 
 
