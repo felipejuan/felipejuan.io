@@ -9,16 +9,16 @@ summary: The struggles of a PhD Candidate in economics
 projects: []
 
 # Date published
-date: '2023-12-13T00:00:00Z'
+date: '2023-10-05T00:00:00Z'
 
 # Date updated
-lastmod: '2023-12-13T00:00:00Z'
+lastmod: '2023-10-05T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
 
 # Show this page in the Featured widget?
-featured: false
+featured: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
@@ -48,5 +48,7 @@ print('This is going to be fun')
 ## Overview
 
 It's 3 am and I'm finishing up this site as a birthday present to myself, so I, at least, can sleep a little better later today. Eventually, I'll have more academic things to say but I'm tired and I finally got this somewhat done. Soft launch. 
+
+
 
 
