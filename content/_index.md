@@ -172,7 +172,7 @@ sections:
       title: Gallery
       subtitle: ''
       text: |-
-        {{< gallery album="demo" >}}
+        {{< gallery album="What an economist looks like" >}}
     design:
       columns: '1'
   - block: collection
