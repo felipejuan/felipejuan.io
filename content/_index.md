@@ -26,7 +26,7 @@ sections:
           icon_pack: fab
         - name: Stata
           description: 
-          icon: 'stata'
+          icon: stata
           icon_pack: svg
   - block: experience
     content:
