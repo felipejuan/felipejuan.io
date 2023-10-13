@@ -138,7 +138,7 @@ sections:
 #   content:
 #     title: Gallery
 #     subtitle: ''
-#     text: '{{< gallery album="<economist>" resize_options="250x250>}}'
+#     text: '{{< gallery album="economist" resize_options="250x250>}}'
 #   design:
 #     columns: '1'
 - block: collection
