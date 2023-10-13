@@ -2,6 +2,7 @@
 title: "Felipe Juan"
 date: "2022-10-24"
 type: landing
+
 sections:
 - block: about.biography
   id: about
@@ -95,27 +96,90 @@ sections:
       url: https://www.thepolicyacademies.org/
   design:
     columns: '2'
-- block: collection
-  id: posts
-  content:
-    title: Recent Posts
-    subtitle: ''
-    text: ''
-    count: 5
-    filters:
-      folders: post
-      author: ''
-      category: ''
-      tag: ''
-      exclude_featured: no
-      exclude_future: no
-      exclude_past: no
-      publication_type: ''
-    offset: 0
-    order: desc
-  design:
-    view: compact
-    columns: '2'
+# - block: collection
+#   id: posts
+#   content:
+#     title: Recent Posts
+#     subtitle: ''
+#     text: ''
+#     count: 5
+#     filters:
+#       folders: post
+#       author: ''
+#       category: ''
+#       tag: ''
+#       exclude_featured: no
+#       exclude_future: no
+#       exclude_past: no
+#       publication_type: ''
+#     offset: 0
+#     order: desc
+#   design:
+#     view: compact
+#     columns: '2'
+# - block: portfolio
+#   id: projects
+#   content:
+#     title: Projects
+#     filters:
+#       folders: project
+#     default_button_index: 0
+#     buttons:
+#     - name: All
+#       tag: '*'
+#     - name: Unemployment Insurance
+#       tag: Unemployment Insurance
+#     - name: Metaverse
+#       tag: Metaverse
+#   design:
+#     columns: '1'
+#     view: showcase
+#     flip_alt_rows: no
+# - block: markdown
+#   content:
+#     title: Gallery
+#     subtitle: ''
+#     text: |-
+#       {{< gallery album="economist" >}}
+#   design:
+#     columns: '1'
+# - block: collection
+#   id: featured
+#   content:
+#     title: Featured Publications
+#     filters:
+#       folders: publication
+#       featured_only: yes
+#   design:
+#     columns: '2'
+#     view: card
+# - block: collection
+#   content:
+#     title: Recent Publications
+#     text: |-
+#       {{% callout note %}}
+#       Quickly discover relevant content by [filtering publications](./publication/).
+#       {{% /callout %}}
+#     filters:
+#       folders: publication
+#       exclude_featured: yes
+#   design:
+#     columns: '2'
+#     view: citation
+# - block: collection
+#   id: talks
+#   content:
+#     title: Recent & Upcoming Talks
+#     filters:
+#       folders: event
+#   design:
+#     columns: '2'
+#     view: compact
+# - block: tag_cloud
+#   content:
+#     title: Popular Topics
+#   design:
+#     columns: '2'
 - block: contact
   id: contact
   content:
