@@ -174,7 +174,7 @@ sections:
       text: |-
         {{< gallery album="economist" >}}
     design:
-      columns: '1'
+      columns: '2'
   - block: collection
     id: featured
     content:
