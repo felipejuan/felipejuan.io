@@ -134,13 +134,14 @@ sections:
     columns: '1'
     view: showcase
     flip_alt_rows: no
-# - block: markdown
-#   content:
-#     title: Gallery
-#     subtitle: ''
-#     text: '{{< gallery album="economist" resize_options="250x250>}}'
-#   design:
-#     columns: '1'
+- block: markdown
+  content:
+    title: Gallery
+    subtitle: ''
+    text: |-
+      {{< gallery album="economist" resize_options="250x250" >}}
+  design:
+    columns: '1'
 - block: collection
   id: featured
   content:
