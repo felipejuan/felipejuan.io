@@ -96,27 +96,28 @@ sections:
       url: https://www.thepolicyacademies.org/
   design:
     columns: '2'
-# - block: collection
-#   id: posts
-#   content:
-#     title: Recent Posts
-#     subtitle: ''
-#     text: ''
-#     count: 5
-#     filters:
-#       folders: post
-#       author: ''
-#       category: ''
-#       tag: ''
-#       exclude_featured: no
-#       exclude_future: no
-#       exclude_past: no
-#       publication_type: ''
-#     offset: 0
-#     order: desc
-#   design:
-#     view: compact
-#     columns: '2'
+- block: collection
+  id: posts
+  content:
+    title: Recent Posts
+    subtitle: ''
+    text: ''
+    count: 5
+    filters:
+      folders: 
+        - post
+      author: ''
+      category: ''
+      tag: ''
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      publication_type: ''
+    offset: 0
+    order: desc
+  design:
+    view: compact
+    columns: '2'
 # - block: portfolio
 #   id: projects
 #   content:
