@@ -86,12 +86,12 @@ sections:
       organization_url: https://www.mercatus.org/
       title: Adam Smith Fellow
       url: "https://www.mercatus.org/students/fellows/felipe-juan"
-    - certificate_url: "https://www.nasi.org/pressrelease/kilolo-kijakazi-fellowship-program-fellows/"
+    - certificate_url: 
       date_end: ''
       date_start: "2022-06-01"
       description: ''
       organization: The Policy Academies and The National Academy of Social Insurance
-      organization_url: https://www.datacamp.com
+      organization_url: "https://www.nasi.org/pressrelease/kilolo-kijakazi-fellowship-program-fellows/"
       title: Kilolo Kijikazi Fellow
       url: https://www.thepolicyacademies.org/
   design:
@@ -136,14 +136,14 @@ sections:
 #     columns: '1'
 #     view: showcase
 #     flip_alt_rows: no
-# - block: markdown
-#   content:
-#     title: Gallery
-#     subtitle: ''
-#     text: |-
-#       {{< gallery album="economist" >}}
-#   design:
-#     columns: '1'
+- block: markdown
+  content:
+    title: Gallery
+    subtitle: ''
+    text: |-
+      {{< gallery album="economist" >}}
+  design:
+    columns: '1'
 # - block: collection
 #   id: featured
 #   content:
