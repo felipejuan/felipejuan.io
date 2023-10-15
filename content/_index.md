@@ -144,16 +144,16 @@ sections:
       {{< gallery album="economist" >}}
   design:
     columns: '1'
-# - block: collection
-#   id: featured
-#   content:
-#     title: Featured Publications
-#     filters:
-#       folders: publication
-#       featured_only: yes
-#   design:
-#     columns: '2'
-#     view: card
+- block: collection
+  id: featured
+  content:
+    title: Working Papers
+    filters:
+      folders: publication
+      featured_only: yes
+  design:
+    columns: '2'
+    view: card
 # - block: collection
 #   content:
 #     title: Recent Publications
