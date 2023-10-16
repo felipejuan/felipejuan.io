@@ -149,7 +149,8 @@ sections:
   content:
     title: Working Papers
     filters:
-      folders: publication
+      folders: 
+      - publication
       featured_only: yes
   design:
     columns: '2'
