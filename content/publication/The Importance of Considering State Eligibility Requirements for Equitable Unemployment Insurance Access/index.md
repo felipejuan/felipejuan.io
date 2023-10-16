@@ -32,9 +32,9 @@ publication_short:
 abstract: The issue of whether unemployment insurance (UI) is an effective social safety net to protect workers is an ongoing debate among scholars and policymakers. Current research examines UI as an exogenous factor instead of an endogenous one, and economists assume that policymakers want UI to be easily accessible for workers during periods of economic downturn. However, this is not always the case, as policymakers' decisions as to who should be eligible for UI varies across the country. This paper attempts to provide evidence that UI eligibility is an endogenous factor. As an endogenous factor, the motives of policymakers in selecting eligibility requirements for unemployment benefits comes into question. Preliminary results indicate a statistical significance between the first eligibility requirements to qualify for UI and the recipiency rates for each state, using various controls for race, union density, industry, and employment. The statistical significance implies that policymakers may assign specific eligibility requirements that create barriers for displaced workers in receiving UI. The preliminary finding also provides more insight into the contention of the efficacy of UI. The data used is compiled from various sources from the US Department of Labor, state UI recipiency rates, and the Community Pulse Survey, examining data from 2006 through 2021 using the variation of the Great Recession of 2008.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This is an addition to the literature by using political factors and UI eligibility requirements to understand the constraints applicants undergo. 
 
-tags: []
+tags: Unemployment Insurance
 
 # Display this page in the Featured widget?
 featured: true
