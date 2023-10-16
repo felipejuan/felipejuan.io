@@ -55,6 +55,7 @@ sections:
       date_end: "2021-08-01"
       description: Teaching Fellow for Advanced Econometrics
     - title: Instructor
+      title_url: 
       company: Howard University
       company_url: ''
       company_logo: null
@@ -94,6 +95,14 @@ sections:
       organization_url: "https://www.nasi.org/pressrelease/kilolo-kijakazi-fellowship-program-fellows/"
       title: Kilolo Kijikazi Fellow
       url: https://www.thepolicyacademies.org/
+    - certificate_url: null
+      date_end: "2023-07-07"
+      date_start: "2022-08-07"
+      description: null
+      organization: Mercatus Center
+      organization_url: https://www.mercatus.org/
+      title: Adam Smith Fellow
+      url: "https://www.mercatus.org/students/fellows/felipe-juan"
   design:
     columns: '2'
 - block: collection
