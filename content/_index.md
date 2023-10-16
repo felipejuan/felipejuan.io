@@ -23,8 +23,8 @@ sections:
       icon_pack: fab
     - name: Stata
       description: null
-      icon: 'stata.svg'
-      icon_pack: 'svg'
+      icon: stata
+      icon_pack: svg
 - block: experience
   content:
     title: Teaching Experience
