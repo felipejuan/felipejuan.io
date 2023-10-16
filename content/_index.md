@@ -24,7 +24,7 @@ sections:
     - name: Stata
       description: null
       icon: stata
-      icon_pack: svg
+      icon_pack: custom
 - block: experience
   content:
     title: Teaching Experience
