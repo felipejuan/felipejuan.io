@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">{{/* Wowchemy Blocks: About */}}</p>
+<p class="p1">{{/* Documentation: https://wowchemy.com/blocks/ */}}</p>
+<p class="p1">{{/* License: https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/LICENSE.md */}}</p>
+<p class="p2"><br></p>
+<p class="p1">{{/* Initialise */}}</p>
+<p class="p1">{{ $page := .wcPage }}</p>
+<p class="p1">{{ $block := .wcBlock }}</p>
+<p class="p2"><br></p>
+<p class="p1">{{ $author := "" }}</p>
+<p class="p1">{{ if .author }}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>{{ $author = .author }}</p>
+<p class="p1">{{ else }}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>{{ $author = $block.content.username }}</p>
+<p class="p1">{{end}}</p>
+<p class="p2"><br></p>
+<p class="p1">{{ $person_page_path := (printf "/authors/%s" $author) }}</p>
+<p class="p1">{{ $person_page := site.GetPage $person_page_path }}</p>
+<p class="p1">{{ if not $person_page }}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>{{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://wowchemy.com/docs/page-builder/#about " $person_page_path }}</p>
+<p class="p1">{{end}}</p>
+<p class="p1">{{ $person := $person_page.Params }}</p>
+<p class="p1">{{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}</p>
+<p class="p1">{{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- About widget --&gt;</p>
+<p class="p1">&lt;div class="row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="col-12 col-lg-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="profile"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>{{ if site.Params.features.avatar.gravatar }}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{{ else if $avatar }}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{{ $avatar_image := $avatar.Fill "270x270 Center" }}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}"</p>
+<p class="p1"><span class="Apple-converted-space">           </span>width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}"</p>
+<p class="p1"><span class="Apple-converted-space">           </span>src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{{ end }}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="portrait-title"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{- if $person.name_pronunciation -}}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;ruby&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;rb&gt;{{ $person_page.Title }}&lt;/rb&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;rt&gt;{{ $person.name_pronunciation }}&lt;/rt&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ruby&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{- else -}}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{{- $person_page.Title -}}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{- end -}}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ with $person.role }}&lt;h3&gt;{{ . | markdownify | emojify }}&lt;/h3&gt;{{ end }}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ range $person.organizations }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{ with .url }}&lt;a href="{{ . }}" target="_blank" rel="noopener"&gt;{{ end }}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span&gt;{{ .name }}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{ if .url }}&lt;/a&gt;{{ end }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ end }}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;ul class="network-icon" aria-hidden="true"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ range $person.social }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ $pack := or .icon_pack "fas" }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ $pack_prefix := $pack }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ if in (slice "fab" "fas" "far" "fal") $pack }}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{ $pack_prefix = "fa" }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ end }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ $link := .link }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ $scheme := (urls.Parse $link).Scheme }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ $target := "" }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ if not $scheme }}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{ $link = .link | relLangURL }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ else if in (slice "http" "https") $scheme }}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{ $target = "target=\"_blank\" rel=\"noopener\"" }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ end }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{ end }}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="col-12 col-lg-8"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>{{/* Only display widget title in explicit instances of about widget, not in author pages. */}}</p>
+<p class="p1"><span class="Apple-converted-space">    </span></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="article-style"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{{ $person_page.Content }}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="row"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>{{ with $person.interests }}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="col-md-5"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="section-subheading"&gt;{{ i18n "interests" | markdownify }}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;ul class="ul-interests mb-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{ range . }}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;{{ . | markdownify | emojify }}&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{ end }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{{ end }}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>{{ with $person.education }}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="col-md-7"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="section-subheading"&gt;{{ i18n "education" | markdownify }}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;ul class="ul-edu fa-ul mb-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{ range .courses }}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;i class="fa-li fas fa-graduation-cap"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="description"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="course"&gt;{{ .course }}{{ with .year }}, {{ . }}{{ end }}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="institution"&gt;{{ .institution }}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{{ end }}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{{ end }}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+</body>
+</html>
