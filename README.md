@@ -1,3 +1,3 @@
-It's just Felipejuan.io
+This is my website; I'm a visiting assistant professor at Howard University for the AEA Summer program. 
 
-I'm a PhD candidate at Howard University. Please hire me! 
+felipejuan.io
