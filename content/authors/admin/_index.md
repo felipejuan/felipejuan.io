@@ -10,7 +10,7 @@ last_name: Juan
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate at Howard University
+role: Visiting Assistant Professor for the AEA Summer Program at Howard University.
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -18,7 +18,7 @@ organizations:
     url: https://www.howard.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Felipe is a PhD candidate in economics at Howard University, currently on the job market. His research investigates equitable access to unemployment benefits and equitable access to the Metaverse, 
+bio: Felipe Juan is a recent graduate of the Economics PhD program at Howard University. 
 
 # Interests to show in About widget
 interests:
@@ -76,5 +76,5 @@ email: ''
 highlight_name: true
 ---
 
-Felipe Juan is a PhD Candidate in economics at Howard University. His research interests include equitable access to unemployment benefits and equitable economic equity in the metaverse. He's currently in the job market. 
+Felipe Juan is a recent graduate of economics PhD program at Howard University. His research interests include equitable access to unemployment benefits and equitable economic equity in the metaverse.
 {style="text-align: justify;"}
