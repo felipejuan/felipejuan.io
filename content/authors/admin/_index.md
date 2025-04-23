@@ -10,7 +10,7 @@ last_name: Juan
 superuser: true
 
 # Role/position/tagline
-role: Visiting Assistant Professor for the AEA Summer Program at Howard University.
+role: Visiting Assistant Professor for the AEA Summer Program and Post-Doctoral Fellow at the Center for an Equitable Economy and Sustainable Society at Howard University.
 
 # Organizations/Affiliations to show in About widget
 organizations:
