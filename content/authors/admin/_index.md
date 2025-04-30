@@ -76,5 +76,5 @@ email: ''
 highlight_name: true
 ---
 
-Felipe Juan is a recent graduate of economics PhD program at Howard University. His research interests include equitable access to unemployment benefits and equitable economic equity in the metaverse.
+Felipe Juan is a recent graduate of the economics PhD program at Howard University. His research interests include equitable access to unemployment benefits and equitable economic equity in the metaverse. He is now working on topics related to wealth and health economics. 
 {style="text-align: justify;"}
