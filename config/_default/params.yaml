@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Fifth year PhD candidate in economics at Howard University'
+    description: 'Visiting Assistant Professor for the AEA Summer Program and Post-Doctoral Fellow at the Center for an Equitable Economy and Sustainable Society at Howard University'
     twitter: 'soyfelipejuan'
   analytics:
     google_analytics: ''
@@ -41,7 +41,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Felipe Juan. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -66,7 +66,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/felipejuan/felipejuan.io'
     content_dir: content
     branch: main
   avatar:
