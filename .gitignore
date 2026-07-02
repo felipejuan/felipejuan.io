@@ -9,3 +9,9 @@ node_modules/
 go.sum
 .hugo_build.lock
 .Rproj.user
+
+# macOS
+.DS_Store
+
+# R
+.Rhistory
